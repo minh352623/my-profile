@@ -1,0 +1,120 @@
+:root{
+    --bg1 :#9b59b6;
+    --bg2 :#3498db;
+    --bg :#D7E1DC;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #50C7C7;
+}
+
+.container{
+    width:250px;
+    height: 250px;
+    border-radius:50%px;
+    background: linear-gradient(var(--bg1),var(--bg2));
+    transition: 0.4s;
+    overflow: hidden;
+}
+.container:hover{
+    width:350px;
+    height: 450px;
+    border-radius:10px;
+    background: linear-gradient(var(--bg1),var(--bg2));
+}
+.container img{
+    width:200px;
+    height: 200px;
+    border-radius:50%;
+    border:5px solid white;
+    margin:20px auto;
+    cursor: pointer;
+    position: relative;
+    transition: 0.4s;
+}
+.container img.active{
+    width:350px;
+    height: 450px;
+    border:5px solid white;
+    margin:0;
+    border-radius:10px;
+}
+/* .container img{
+    width:350px;
+    height: 450px;
+    border:5px solid white;
+    margin:0;
+    border-radius:10px;
+} */
+.container h2{
+    color: white;
+
+}
+.container p{
+    color: white;
+    margin:0 30px 12px ;
+}
+/* .bnt-container{
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 30px 12px;
+} */
+/* .bnt-container button{
+    height: 50px;
+    width: 150px;
+    border:none ;
+    margin-right: 12px;
+    border-radius: 5px;
+    columns:black;
+    cursor: pointer;
+    transition: 0.4s;
+} */
+.bnt-contaiber button{
+    height: 50px;
+    width: 150px;
+    border:none ;
+    margin-right: 12px;
+    border-radius: 5px;
+    columns:black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bnt-contaiber button:hover{
+    transform:scale(0.9) ;
+}
+.icon-social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-60px);
+    opacity: 0;
+    transition: 0.4s;
+}
+.container:hover .icon-social{
+    transform: translate(0px);
+    opacity: 1;
+}
+
+.icon-social i{
+    padding: 12px;
+    color: var(--bg1);
+    background: white;
+    border-radius: 50%;
+    margin: 7px 0 0 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.icon-social i:hover{
+    transform:scale(0.8) ;
+}
