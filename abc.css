@@ -37,7 +37,7 @@ body{
 }
 .container:hover{
     width:350px;
-    height: 450px;
+    height: 500px;
     border-radius:10px;
     background: linear-gradient(var(--bg1),var(--bg2));
 }
