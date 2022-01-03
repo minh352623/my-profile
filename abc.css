@@ -1,10 +1,18 @@
 :root{
     --bg1 :#9b59b6;
     --bg2 :#3498db;
-    --bg :#D7E1DC;
+    --bg :hsl(110, 13%, 27%);
 
 }
-
+#main{
+    margin:0 20px 0 20px;
+    font-size: 15px;
+    color:#9b59b6;
+    font-style: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
 *{
     margin:0;
     padding:0;
@@ -16,7 +24,7 @@ body{
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background-color: #50C7C7;
+    background: url('https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-9/176342711_2706170973008117_6929628062780514103_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=19026a&_nc_ohc=3mIKi1GjqaUAX8nuo-_&_nc_ht=scontent.fsgn5-6.fna&oh=00_AT_c0JJo84atT_b2xpYzq0-XCjEK6jVTi5fiHmUTdFem1A&oe=61F8071B');
 }
 
 .container{
@@ -89,6 +97,7 @@ body{
     columns:black;
     cursor: pointer;
     transition: 0.4s;
+    font-size: 15px;
 }
 .bnt-contaiber button:hover{
     transform:scale(0.9) ;
