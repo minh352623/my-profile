@@ -25,6 +25,7 @@ body{
     height: 100vh;
     text-align: center;
     background: url('https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-9/176342711_2706170973008117_6929628062780514103_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=19026a&_nc_ohc=3mIKi1GjqaUAX8nuo-_&_nc_ht=scontent.fsgn5-6.fna&oh=00_AT_c0JJo84atT_b2xpYzq0-XCjEK6jVTi5fiHmUTdFem1A&oe=61F8071B');
+   /* background-repeat:no-repeat;*/
 }
 
 .container{
